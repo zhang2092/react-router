@@ -1,0 +1,38 @@
+.header {
+  background-color: #0084ff;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-items: flex-start;
+  justify-content: space-between;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  color: #ffffff;
+}
+
+.container .nav {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.container .nav li {
+  margin: 0 15px;
+}
+
+.container .nav li a {
+  color: #ffffff;
+}
+
+.main{
+  display: flex;
+  width: 1080px;
+  margin: 40px auto;
+  font-size: 24px;
+}
